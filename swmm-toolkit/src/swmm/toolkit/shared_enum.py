@@ -260,6 +260,11 @@ class NodeAttribute(Enum, start = 0):
     TOTAL_INFLOW = 4
     FLOODING_LOSSES = 5
     POLLUT_CONC_0 = 6
+    POLLUT_CONC_1 = 7
+    POLLUT_CONC_2 = 8
+    POLLUT_CONC_3 = 9
+    POLLUT_CONC_4 = 10
+    POLLUT_CONC_5 = 11
 
 
 class LinkAttribute(Enum, start = 0):
